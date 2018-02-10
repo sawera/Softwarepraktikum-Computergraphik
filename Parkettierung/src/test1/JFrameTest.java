@@ -26,8 +26,8 @@ public class JFrameTest {
 
         mainMap.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        int xPoly[] = {150, 250, 325, 375, 450, 275, 100};
-        int yPoly[] = {150, 100, 125, 225, 250, 375, 300};
+        int xPoly[] = {150, 300, 355, 400, 450};
+        int yPoly[] = {150, 100, 155, 225, 400};
 
         poly = new Polygon(xPoly, yPoly, xPoly.length);
         JPanel p = new JPanel() {
